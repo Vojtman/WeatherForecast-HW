@@ -1,0 +1,31 @@
+.table_content{
+    border-collapse: collapse;
+    margin: 50px 0;
+    font-size: 90%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    font-family:'Lato', sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0 ,0.15);
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.table_content thead tr{
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table_content th,
+.table_content td{  
+    padding: 12px 15px;
+}
+
+.table_content tbody tr{
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.table_content tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
